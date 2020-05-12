@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<title>Examen Diagnostico</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<!-- Formulario -->
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<p>Nombre</p>
+				<label for="nombre">Ingresa el nombre:</label>
+				<br>
+				<input type="text" name="nombre" placeholder="¿Como te llamas?" required>
+				<p>Correo</p>
+				<label for="correo">Ingresa el correo electronico:</label>
+				<br>
+				<input type="email" name="correo" placeholder="xxxx@xxx.xx" required>
+				<p>Mensaje</p>
+				<label for="mensaje">Escribe el mensaje:</label>
+				<br>
+				<textarea name="mensaje" placeholder="Di algo :)" required></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>
